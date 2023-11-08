@@ -1,0 +1,17 @@
+/* pages/detail/detail.wxss */
+.container{
+  position: relative;
+}
+
+.noContent{
+  color: rgb(187, 185, 185);
+  text-align: center;
+  margin-top: 30vh;
+  font-size: 35rpx;
+}
+
+.back{
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+}

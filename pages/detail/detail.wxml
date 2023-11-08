@@ -1,0 +1,5 @@
+<!--pages/detail/detail.wxml-->
+<view class="container">
+  <text class="back" bind:tap="back">back</text>
+  <view class="noContent">这里什么都没有</view>
+</view>

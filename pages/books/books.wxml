@@ -1,0 +1,25 @@
+<!--pages/books/books.wxml-->
+<view class="container-book">
+
+  <scroll-view  scroll-y  class="date" >
+    <view class="date-list">
+      <block wx:for="{{date}}">
+        <view id="{{item}}" class="date-item" hover-class="date-item1" bind:tap="tap">{{item}}</view>
+      </block>
+    </view>
+     
+  </scroll-view>
+ 
+
+  <scroll-view scroll-y class="content-box" scroll-top="{{scrollTop}}">
+  <view class="noLogin" wx:if="{{noLogin}}">这里什么都没有，添加摘录后请刷新</view>
+  <block wx:for="{{current}}">
+    <view class="content">
+      <text class="content-text">{{item.content}}</text>
+      <text class="title">——{{item.title}}</text>
+    </view>
+  </block>
+  <view class="gap"></view>
+  </scroll-view>
+
+</view>

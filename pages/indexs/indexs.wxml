@@ -1,0 +1,37 @@
+<!--pages/indexs/indexs.wxml-->
+<view class="container">
+  <view hidden="{{search}}" class="search-content">
+    <block wx:for="{{searchContent}}">
+      <view id="{{index}}" bind:tap="navTo">{{item}}</view>
+    </block> 
+  </view>
+  <view hidden="{{search}}" class="search-bg" bind:tap="cancelSearch"></view>
+  <view class="gap"></view>
+  <view class="search-box">
+    <image class="search-img" src="../../images/icons/search.png"></image>
+    <input class="search" bindinput="search" bind:tap="showSearch"  />
+  </view>
+  <text class="title">Sayings</text>
+  <view class="content">
+     
+      <scroll-view scroll-y   class="content-left"  	  lower-threshold='20'  bindscrolltolower="leftScroll">
+    <block wx:for="{{title}}" >
+      <view id="{{index}}" class="content-left-title" hover-class="content-left-title1"
+      bind:tap="tap">{{item}}</view>
+    </block>
+    <view class="gap"></view>
+      </scroll-view>
+     
+
+    <scroll-view scroll-y  class="content-right"  scroll-top="{{scrollTop}}">
+      <block wx:for="{{current}}" >
+        <view id="{{index}}" class="content-right-content" bind:tap="upData" >
+          <text class="content-right-text" >{{item}}</text>
+          <text  class="add" >点击添加摘录</text>
+        </view>
+         
+      </block>
+      <view class="gap"></view>
+    </scroll-view>
+  </view>
+</view>  

@@ -1,0 +1,87 @@
+/* pages/books/books.wxss */
+.container-book{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.noLogin{
+  color: rgb(187, 185, 185);
+  text-align: center;
+  margin-top: 30vh;
+  font-size: 32rpx;
+}
+
+.date{
+  flex: 1;
+  margin-top: 15vh;
+  border-right: 1px solid rgb(238, 238, 238);
+}
+
+.date-list{ 
+  display: flex;
+  height: 100%;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+
+.date-item{
+  
+  line-height: 5vh;
+  width: 70%;
+  border-right: 1rpx solid rgb(14, 212, 80);
+  text-align: right;
+  padding-right: 2vw;
+  color: rgb(10, 175, 65);
+  font-size: 20rpx;
+}
+
+.date-item1{
+  
+  line-height: 5vh;
+  width: 70%;
+  border-right: 1rpx solid rgb(29, 167, 75);
+  text-align: right;
+  padding-right: 2vw;
+  color: rgb(8, 124, 37);
+  font-size: 20rpx;
+}
+
+.content-box{
+  flex:3;
+  padding: 15vh 5vw 0;
+}
+
+.content{ 
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+  width: 55vw;
+  min-height: 70vw;
+  margin: 0 auto 90rpx;
+  padding:  50rpx 23rpx 70rpx 57rpx;
+  box-shadow: rgb(238, 238, 238) 0rpx 4rpx 40rpx;
+  border-radius: 30rpx;
+  font-size: 34rpx;
+  line-height: 60rpx;
+}
+
+.content-text{
+  margin: 0 auto;
+}
+
+.title{
+  position: absolute;
+  right:50rpx;
+  bottom: 10rpx;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 30rpx;
+}
+
+.gap{
+  height: 1rpx;
+}

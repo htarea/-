@@ -1,0 +1,24 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <view  class="info-box">
+    <block wx:if="{{!hasUserInfo}}">
+      <button open-type="chooseAvatar"  bindchooseavatar="chooseAvatar">
+        <image  class="avatar" src="{{userInfo.avatarUrl}}" >
+        </image>
+      </button>
+     
+      <input type="nickname" class="nick" placeholder="请输入昵称" bind:change="inputChange"  />
+    </block>
+    <block wx:else>
+      <image   class="avatar" src="{{userInfo.avatarUrl}}" ></image>
+
+      <text class="nick">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  
+  <view class="content">
+    <view bind:tap="navTo" class="content-box">设置</view>
+    <view bind:tap="navTo" class="content-box">帮助中心</view>
+    <view class="content-box">当前版本1.0.0</view>
+  </view>
+</view>  

@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/indexs/indexs",
+    "pages/home/home",
+    "pages/search/search",
+    "pages/books/books",
+    "pages/detail/detail"
+    
+  ],
+  "window": {
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"custom"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "tabBar": {
+    "list": [ 
+      {
+        "pagePath": "pages/indexs/indexs",
+        "iconPath": "images/icons/index1.png",
+        "selectedIconPath": "images/icons/index1-s.png",
+        "text": "语录"
+        
+      },
+      {
+        "pagePath": "pages/books/books",
+        "iconPath": "images/icons/say1.png",
+        "selectedIconPath": "images/icons/say1-s.png",
+        "text": "摘录"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/icons/home1.png",
+        "selectedIconPath": "images/icons/home1-s.png",
+        "text": "个人中心"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#000"
+    
+  }
+  
+}

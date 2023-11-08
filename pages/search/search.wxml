@@ -1,0 +1,15 @@
+<!--pages/search/search.wxml-->
+
+<view class="container">
+  <text class="back" bind:tap="back">back</text>
+  <text class="header">——{{title}}——</text>  
+
+  <scroll-view scroll-y class="content-box" scroll-top="{{scrollTop}} ">
+    <block wx:for="{{current}}">
+      <view id="{{index}}" bind:tap="upData" class="content">
+        <text class="content-text">{{item}}</text>
+        
+      </view>
+    </block>
+  </scroll-view>
+</view>

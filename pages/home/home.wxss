@@ -1,0 +1,41 @@
+/* pages/home/home.wxss */
+.container{
+  display: block;
+  padding-top: 15vh;
+}
+
+.info-box{
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+  align-items: center;
+  
+  margin-bottom: 15vh;
+}
+
+.avatar{
+  height: 70px;
+  width: 70px;
+  border: 1px solid rgb(151, 8, 170);
+  border-radius: 50%;
+  
+}
+
+.nick{
+  width: 80vw;
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid rgb(196, 11, 156);
+}
+
+.content{
+  width: 80%; 
+  margin: 0 auto;
+}
+
+.content-box{
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 35rpx;
+  border-bottom: 1px solid rgb(238, 236, 238);
+}
