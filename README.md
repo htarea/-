@@ -13,7 +13,7 @@
   都选择后即显示登录成功，右侧为登录成功后：
  ![image](https://github.com/htarea/minipro/blob/main/Screenshots/4.png)
 
-  点击左侧可选择，下拉左侧可加载：
+  点击左侧可选择，上划左侧可加载：
   ![image](https://github.com/htarea/minipro/blob/main/Screenshots/5.png)
 
   点击卡片即可添加：
