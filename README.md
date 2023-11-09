@@ -3,14 +3,14 @@
   首先进入小程序，点击摘录卡片会显示以下内容：
  ![image](https://github.com/htarea/minipro/blob/main/Screenshots/1.png)
 
-  点击摘录即显示下方内容：
+  点击摘录即显示右侧内容：
   ![image](https://github.com/htarea/minipro/blob/main/Screenshots/13.png)
 
   点击个人中心即可点击添加昵称与头像：
  ![image](https://github.com/htarea/minipro/blob/main/Screenshots/2.png)
  ![image](https://github.com/htarea/minipro/blob/main/Screenshots/3.png)
 
-  都选择后即显示登录成功，以下为登录成功后：
+  都选择后即显示登录成功，右侧为登录成功后：
  ![image](https://github.com/htarea/minipro/blob/main/Screenshots/4.png)
 
   点击左侧可选择，下拉左侧可加载：
