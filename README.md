@@ -1,6 +1,6 @@
   本项目为微信小程序云开发项目，上方代码内容为miniprogram文件夹内主要代码文件。因审核未通过所以只有体验版，使用体验版需要开发者手动添加体验者信息，所以若需要体验可联系本人。 下方使用图片介绍产品：
 
-  首先进入小程序，点击摘录卡片会显示以下内容：
+  首先进入小程序，点击摘录卡片会显示右侧内容：
  ![image](https://github.com/htarea/minipro/blob/main/Screenshots/1.png)
 
   点击摘录即显示右侧内容：
@@ -31,7 +31,7 @@
   返回语录点击上方的搜索框即可搜索语录（因是个人练手小项目所以语录左侧内容即是全部可搜索内容）：
   ![image](https://github.com/htarea/minipro/blob/main/Screenshots/11.png)
 
-  点击即可进入，同意点击即可添加：
+  点击即可进入，点击即可添加：
   ![image](https://github.com/htarea/minipro/blob/main/Screenshots/12.png)
   ![image](https://github.com/htarea/minipro/blob/main/Screenshots/19.png)
 
