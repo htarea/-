@@ -1,6 +1,6 @@
   本项目为微信小程序云开发项目，上方代码内容为miniprogram文件夹内主要代码文件。因审核未通过所以只有体验版，使用体验版需要开发者手动添加体验者信息，所以若需要体验可联系本人。 下方使用图片介绍产品：
 
-  首先进入小程序，点击摘录卡片会显示右侧内容：
+  首先进入小程序，点击卡片会显示右侧内容：
  ![image](https://github.com/htarea/minipro/blob/main/Screenshots/1.png)
 
   点击摘录即显示右侧内容：
@@ -13,7 +13,7 @@
   都选择后即显示登录成功，右侧为登录成功后：
  ![image](https://github.com/htarea/minipro/blob/main/Screenshots/4.png)
 
-  点击左侧可选择，上划左侧可加载：
+  返回语录，点击左侧可选择，上划左侧可加载：
   ![image](https://github.com/htarea/minipro/blob/main/Screenshots/5.png)
 
   点击卡片即可添加：
@@ -24,7 +24,7 @@
   ![image](https://github.com/htarea/minipro/blob/main/Screenshots/17.png)
   ![image](https://github.com/htarea/minipro/blob/main/Screenshots/18.png)
 
-  点击摘录即可显示之前添加的摘录，左侧的时间为摘录当时添加时间，点击时间即可看到对应时间添加的摘录：
+  点击摘录即可显示之前添加的摘录，点击时间即可看到对应时间添加的摘录：
   ![image](https://github.com/htarea/minipro/blob/main/Screenshots/9.png)
   ![image](https://github.com/htarea/minipro/blob/main/Screenshots/10.png)
 
